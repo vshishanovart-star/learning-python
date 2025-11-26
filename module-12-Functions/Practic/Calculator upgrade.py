@@ -94,43 +94,43 @@
 
 # ------------------------------
 
-def sum_digits(num):
-    num = str(num)
-    count_num = 0
-    for summa in num:
-        count_num += int(summa)
-    print("Сумма цифр:", count_num)
+# def sum_digits(num):
+#     num = str(num)
+#     count_num = 0
+#     for summa in num:
+#         count_num += int(summa)
+#     print("Сумма цифр:", count_num)
 
-def max_digit(num):
-    num = str(num)
-    max_num = 0
-    for maximum in num:
-        if int(maximum) > max_num:
-            max_num = int(maximum)
-    print("Максимальная цифра:", max_num)
+# def max_digit(num):
+#     num = str(num)
+#     max_num = 0
+#     for maximum in num:
+#         if int(maximum) > max_num:
+#             max_num = int(maximum)
+#     print("Максимальная цифра:", max_num)
 
-def min_digit(num):
-    num = str(num)
-    min_num = int(num[0])
-    for minimum in num:
-        if int(minimum) < min_num:
-            min_num = int(minimum)
-    print("Минимальная цифра:", min_num)
+# def min_digit(num):
+#     num = str(num)
+#     min_num = int(num[0])
+#     for minimum in num:
+#         if int(minimum) < min_num:
+#             min_num = int(minimum)
+#     print("Минимальная цифра:", min_num)
 
-while True:
-    print("Введите число")
-    number = int(input())
-    print("Введите номер действия:\n"
-          "1 - сумма цифр\n"
-          "2 - максимальная цифра\n"
-          "3 - минимальная цифра")
-    action_number = int(input())
-    if action_number == 1:
-        sum_digits(number)
-    elif action_number == 2:
-        max_digit(number)
-    elif action_number == 3:
-        min_digit(number)
+# while True:
+#     print("Введите число")
+#     number = int(input())
+#     print("Введите номер действия:\n"
+#           "1 - сумма цифр\n"
+#           "2 - максимальная цифра\n"
+#           "3 - минимальная цифра")
+#     action_number = int(input())
+#     if action_number == 1:
+#         sum_digits(number)
+#     elif action_number == 2:
+#         max_digit(number)
+#     elif action_number == 3:
+#         min_digit(number)
 
 # Математический способ без преобразования чисел в строки
 
