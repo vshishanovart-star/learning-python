@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../VSCode_GitLab/Python_Basic/Python_Basic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../VSCode_GitLab/python_advanced" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../VSCode_GitLab/python_django" vcs="Git" />
+  </component>
+</project>
