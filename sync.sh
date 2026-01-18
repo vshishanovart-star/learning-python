@@ -1,1 +1,5 @@
-python3 -c "import os; os.system('git add . && git commit -m sync && git push')"
+#!/bin/bash
+git pull origin main
+git add .
+git commit -m "$1"
+git push origin main
